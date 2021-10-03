@@ -1,7 +1,4 @@
-*{
-	
-	text-align: center;
-}
+
 
 h1{
 	
@@ -11,6 +8,7 @@ h1{
     font-size: 3em;
     color:#342673;
     background-color: #C5EBFF;
+     padding: 1em 2em 1em 2em;
 
 }
 
@@ -26,8 +24,13 @@ td, th{
 	border: #88C1E0   4px solid;
 	width: 85%;
 	height: 70px;
-	
+	text-align : center;
 
+
+
+}
+td{
+	vertical-align: bottom;
 }
 
 .france{
@@ -36,6 +39,7 @@ td, th{
     background-repeat: no-repeat;
     background-position: center;
     width: 32%;
+    	
 
 }
 .usa{
@@ -44,6 +48,7 @@ td, th{
     background-repeat: no-repeat;
     background-position: center;
     width: 32%;
+    	
 }
 
 
