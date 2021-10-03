@@ -1,0 +1,20 @@
+.ext{
+	border-radius: 13px;
+	border: #8EA5FF  3px solid;
+}
+.t1{
+	border-radius: 5px;
+	background-color: #7DD4BC;
+	border:#BF5C76  2px solid;
+	margin: 8px;
+	padding: 8px;
+	text-align: justify;
+}
+.t2{
+	border:#C7F8FF  2px solid;
+	border-radius: 5px;
+	margin: 8px;
+	padding: 8px;
+	text-align: justify;
+
+}

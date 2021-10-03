@@ -1,0 +1,24 @@
+.Titre{
+	text-align: center;
+}
+table{
+	background-color: #d0e3fa;
+	text-align: center;
+	margin: auto;
+	border:blue 3px solid;
+	width: 50%;
+}
+th{
+	font-family: arial;
+	font-size: 1.2em;
+	background-image: url("bleu.jpg");
+	border:black 1px solid;
+	padding: 5px;
+}
+td{
+	border:black 1px solid;
+	font-family: arial;
+	font-size: 1em;
+	padding: 5px;
+
+}

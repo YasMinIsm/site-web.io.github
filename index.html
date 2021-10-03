@@ -1,29 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<meta charset="utf-8">
-	<title>Accueil</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
-<body bgcolor="#82C5F2">
+<body bgcolor="#D5DDE7">
 
-	<h1>Les différents métiers informatiques</h1>
+    <header>
+    <nav>
+        <ul>
+        <li id="logo"><a href="#logo"> Portfolio </a></li>
 
-	<img src="metiers-info.jpg" width="500" height="250">
+                <li> <a href="#accueil"> Accueil </a></li>
+                <li> <a href="projets.html"> Projets </a></li>
+                <li> <a href="#contact"> Contactez moi</a></li>
+            <form>
+                <input type="search" class="search" placeholder="search" >
+            </form>
+        </ul>
+    </nav>
+    <div id="imagePrincipale"></div>
+</header>
 
-	<font color="" size="">
+<section id="Introduction">
+    <div id="textIntro">
+        <h1>Introduction :</h1>
+        <p> 
+         Bonjour, je m'appelle Yasmin Ismayil, je suis actuellement en première année de BTS SIO. Ce site regroupe l'ensemble des projets réalisés pendant mes études, ainsi que mes projets personnels. 
+         </p>
 
-		<p>Protection des données contre le piratage, applications pour les téléphones mobiles, logiciels de pilotage automatique… Les métiers de l’informatique évoluent aussi vite que les progrès technologiques. L’informatique embarquée, la réalité virtuelle, la data science, le cloud computing et la mobilité, élargissent encore les compétences des informaticiens. Mais il ne faut pas oublier leurs missions traditionnelles qui consistent à concevoir et à développer des logiciels, à gérer des systèmes et des réseaux, à aider les entreprises à mettre en place des systèmes d’information performants.</p>
-
-	</font>
-
-<h2>Sommaire</h2>
-
-<a href="page2.html">Développeur Web</a> <br>
-<a href="page3.html">Développeur d'applications</a> <br>
-<a href="page4.html">Administrateur réseau</a> <br>
-<a href="page5.html">Gestionnaire de Bases de Données</a> <br>
-<a href="page6.html">Formulaire</a>
+    </div>
+    <div id="imagesIntro">
+        <div class="imagesIntro">
+    <img src=".//clavierblanc.jpg" alt="clavier blanc" id="clavierblanc">
+    <img src=".//clavierviolet.jpg" alt="clavier violet" id="clavierviolet">
+        </div>
+    </div>
+</section>
 
 
+
+<footer>
+    <h2 id="contact">Contactez-moi</h2>
+    <form>
+        <input placeholder="Nom">
+        <input placeholder="E-mail">
+        <textarea placeholder="Votre message ici..."></textarea>
+        <button>Envoyer</button>
+    </form>
+
+    <div id="trait"></div>
+    <div id="CopyrightandIcons">
+        <div id="copyright">
+            <span>© Made By Yasmin Ism. 2021</span>
+        </div>
+        <div id="icons">
+            <a href="https://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+            <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+            <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+<script src="./entrainement.js"></script>
 </body>
 </html>

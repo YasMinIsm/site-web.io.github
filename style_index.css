@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    text-align: center;
+}
+body{
+    font-family: "Indie Flower", sans-serif;
+    padding: 0;
+   margin: 0;
+   
+} 
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    text-transform: uppercase;
+    padding: 30px ;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: rgb(238, 230, 230);
+
+}
+
+
+
+
+/* ****************************** Navbar***************************** */
+
+nav{
+    overflow: hidden;
+    background-color:#1c081fc5 ;
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+    height: 50px;
+}
+header li{
+    float: left;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px rgb(138, 136, 136);
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    padding: 18px 16px;
+}
+header a:hover{
+    color: rgb(10, 10, 10);
+    background-color: rgba(238, 197, 241, 0.76);
+    transition: 0.5s ease-in-out;
+}
+#logo{
+    font-family:"Dancing Script", cursive ;
+    font-weight: bold;
+    float: left;
+}
+#logo:hover{
+    text-decoration: none;
+    color: rgb(238, 230, 230);
+}
+header input{
+    float: right;
+    border:none;
+    width: 15%;
+    height: 25px;
+    margin: 12px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    font-family:"Indie Flower", sans-serif;
+    
+}
+#imagePrincipale{
+    padding: 60px;
+    background: url(.//image.principale.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 300px;
+}
+/* ********************Intro******************** */
+#Introduction{
+    display: grid;
+}
+h1{
+    text-align: left;
+    margin: 3px 15px;
+    font-size: 3em;
+    color: rgb(27, 17, 27);
+}
+#Introduction p{
+    text-align: left;
+    float: left;
+    height: 45px;
+    width: 35%;
+    margin: 3px 15px;
+    font-size: 1.3em;
+
+}
+.imagesIntro{
+    width: 100%;
+    height: 100px;
+    float: right top;
+    text-align: right;
+    padding: 0;
+    margin: -100px -40px;
+    
+}
+#clavierviolet{
+    width: 30%;
+    height: 200px;
+    float: right;
+}
+#clavierblanc{
+    width: 30%;
+    height: 200px;
+    float: center;
+}
+/* *******************FOOTER********************* */
+footer{
+    background-color: rgba(79, 37, 85, 0.466);
+    color: whitesmoke;
+    padding: 20px 0 10px 0;
+    text-align: center ;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+footer input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    border-radius: 8px;
+    font-family:"Indie Flower", sans-serif;
+    
+    
+
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: rgb(224, 194, 220);
+}
+button:hover{
+    background-color: rgb(46, 33, 46);
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+#trait{
+    height: 1px;
+    width: 75%;
+    background-color: rgb(233, 221, 247);
+    margin: 60px auto;
+}
+#CopyrightandIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+}
+#icons{
+    width: 50%;
+    text-align: right;
+}
+#icons a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #140110;
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition:0.3s ;
+    color: rgb(231, 202, 231);
+    
+}
