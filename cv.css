@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200&display=swap');
+.page{
+	width: 780px;
+	margin: auto;
+	font-size: 16px ;
+	border: 5px solid #3E2864;
+	border-radius: 5px ;
+	box-shadow: 2px 4px 3px #B6A7CF ;
+	height: auto;
+	padding: 1em;
+	 font-family: "Noto Sans Mono", sans-serif;
+}
+li{
+	list-style-type: circle;
+}
+.gras{
+	  font-weight: bold;
+}
+.entete{
+	margin: 0 0 200px 0;
+
+}
+.info{
+	float: left;
+	width: auto;
+	height: 150px;
+
+}
+.photo{
+		float: right;
+		width: 150px;
+		height: 150px;
+}
+.img{
+  width: 100%;
+  height: auto;
+}
+.section{
+	font-family: "Noto Sans Mono", sans-serif;
+	margin: 0 0 5% 0;
+}
+.titre{
+	font-family: "Noto Sans Mono", sans-serif;
+	font-size: 30px;
+	color: #8567B8 ;
+}
+.information1{
+	font-family: "Noto Sans Mono", sans-serif;
+	width: 20%;
+	padding: 4px;
+}
+.information2{
+	font-family: "Noto Sans Mono", sans-serif;
+	padding: 4px;
+	width: 73%;
+}
+.categorie{
+	font-family: "Noto Sans Mono", sans-serif;
+	font-weight: bold;
+}
+
+.align{
+		display: flex;
+	align-items: stretch;
+}
+a{
+	color: #551286 ;
+	font-weight: bold;
+}
