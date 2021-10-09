@@ -38,6 +38,7 @@ a{
 
 
 nav{
+    float:left;
   overflow:visible;
     background-color:#1c081fc5 ;
     position: fixed;
