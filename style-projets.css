@@ -139,4 +139,70 @@ a:hover{
     background-color: rgba(238, 197, 241, 0.76);
     transition: 0.5s ease-in-out;
 }
+
+
+
+/**********************menu déroulant***********************/
+
+
+.submenu{
+    display: none;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+nav > ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+.submenu li{
+    border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+    }
+
+    .menu-html:hover{
+    border-top: 5px solid #761CB8 ;
+    background-color: RGBa(50, 0, 86,0.15);
+}
+.menu-css:hover{
+    border-top: 5px solid #761CB8  ;
+    background-color: RGBa(50, 0, 86,0.15);
+}
+.projets:hover{
+        border-top: 5px solid #761CB8  ;
+    background-color: RGBa(50, 0, 86,0.15);
+
+}
+nav > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+    }
+    .menu-html .submenu{
+    background-color: #A170C5 ;
+}
+.menu-css .submenu{
+    background-color: #A170C5 ;
+}
+.projets .submenu{
+     background-color: #A170C5 ;
+
+}
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
  
