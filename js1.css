@@ -1,0 +1,27 @@
+
+
+body{
+	margin: auto;
+	padding: 180px;
+	background-color: #FBE8FF ;
+}
+table{
+	border: solid #9413B3  ;
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+
+	
+
+}
+td{
+	border: 2px solid #E83277 ;
+	margin: auto;
+	padding: 5px;
+
+}
+
+h1{
+	color: Red;
+	text-align: center;
+}
