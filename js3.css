@@ -1,0 +1,27 @@
+body{
+	text-align: center;
+	font-size: 45px;
+	margin: auto;
+	padding: 300px;
+	background-color: #AEE1DE   ;
+}
+
+
+
+p1{
+	color: #EE8EA0;
+	
+}
+p2{
+	color:#AE079C ;
+	
+}
+div{
+	border: solid 6px rgba(189, 0, 63,0.50);
+	background-color:#F0F39D;
+	border-radius: 8px;
+	margin: auto;
+	padding: 50px;
+	text-align: center;
+
+}
