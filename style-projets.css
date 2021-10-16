@@ -183,6 +183,10 @@ nav li:hover .submenu{
     border-top: 5px solid #761CB8  ;
     background-color: RGBa(50, 0, 86,0.15);
 }
+.menu-js:hover{
+    border-top: 5px solid #761CB8  ;
+    background-color: RGBa(50, 0, 86,0.15);
+}
 .projets:hover{
         border-top: 5px solid #761CB8  ;
     background-color: RGBa(50, 0, 86,0.15);
@@ -195,6 +199,9 @@ nav > ul > li:hover a{
     background-color: #c4b4db ;
 }
 .menu-css .submenu{
+    background-color: #c4b4db ;
+}
+   .menu-js .submenu{
     background-color: #c4b4db ;
 }
 .projets .submenu{
