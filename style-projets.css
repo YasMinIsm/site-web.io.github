@@ -90,7 +90,7 @@ header input{
 
 .grid-container {
   display: grid;
-  grid-template-columns:  31% 31% 31% ;
+  grid-template-columns:  25% 25% 25% 25%;
   padding: 90px;
   grid-column-gap: 5%;
 
