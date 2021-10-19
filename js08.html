@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body bgcolor="#EAFFFB">
+	<script type="text/javascript">
+
+	function somme() {
+		var x = parseInt(document.getElementById("p1").value);  
+
+		var y = parseInt(document.getElementById("q1").value);
+			document.getElementById("t1").value=(x*y);
+
+		var x = parseInt(document.getElementById("p2").value); 
+
+		var y = parseInt(document.getElementById("q2").value);
+			document.getElementById("t2").value=(x*y);
+
+		var x = parseInt(document.getElementById("p3").value);
+
+		var y = parseInt(document.getElementById("q3").value);
+			document.getElementById("t3").value=(x*y);
+
+		var x = parseInt(document.getElementById("t1").value); 
+
+		var y = parseInt(document.getElementById("t2").value);
+
+		var z = parseInt(document.getElementById("t3").value);
+			document.getElementById("total").value=(x+y+z);
+}
+	</script>
+	<form>
+		<h1>Facture</h1>
+	
+<table>
+<tr>
+	<td>Produit:</td>
+	<td>Prix:</td>
+	<td>Quantité:</td>
+	<td>Total:</td>
+</tr>
+
+<tr>
+	<td><input type="text" name="produit1"></td>
+	<td><input type="text" name="p1" placeholder="0" id="p1"></td>
+	<td><input type="text" name="q1" placeholder="0" id="q1"></td>
+	<td><input type="text" name="t1" placeholder="0" id="t1"></td>
+</tr>
+<tr>
+	<td><input type="text" name="produit2"></td>
+	
+	<td><input type="text" name="p2" placeholder="0" id="p2"></td>
+	<td><input type="text" name="q2" placeholder="0" id="q2"></td>
+	<td><input type="text" name="t2" placeholder="0" id="t2"></td>
+</tr>
+<tr>
+	<td><input type="text" name="produit3"></td>
+	
+	<td><input type="text" name="p3" placeholder="0" id="p3"></td>
+	<td><input type="text" name="q3" placeholder="0" id="q3"></td>
+	<td><input type="text" name="t3" placeholder="0" id="t3"></td>
+</tr>
+<tr>
+	
+	<td><input type="reset" value="Réinitialiser" id="reset"> </td>
+	<td><input type="button" name="calculer" onclick="somme()" value="Calculer"></td>
+	<td>Le prix total:</td>
+	<td><input type="text" name="total" value="0" id="total"></td>
+</tr>
+
+</table>
+
+</form>
+
+	<style>
+	body{
+		font-size: 15px;
+		color: #0A3F35;
+		text-align: center;
+	}
+		table{
+			border: 2px solid #2C6D60 ;
+			border-radius: 14px;
+			width: 65%;
+			margin: auto;
+		}
+		td{
+			border: 1px solid #2C6D60  ;
+			border-radius: 8px;
+		}
+		input{
+			width: 100%;
+
+		}
+		input:hover{
+			color: whitesmoke;
+			font-size: 17px;
+			background-color: #298D7A;
+		}
+		
+		h1{
+		
+			font-size: 40px;
+		}
+	</style>
+</body>
+</html>
