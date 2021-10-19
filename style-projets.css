@@ -87,11 +87,15 @@ header input{
 /*navigation*/
 
 
-
 .grid-container {
   display: grid;
-  grid-template-columns:  33%;
-  padding: 90px;
+  grid-template-columns: 33% 25%
+  25% 25% 25%;
+
+  
+  padding-top: 90px;
+  padding-right:15px;
+  margin:auto;
   grid-column-gap: 5%;
 
 }
