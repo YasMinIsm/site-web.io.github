@@ -245,6 +245,12 @@ nav li:hover .submenu{
     background-color: RGBa(50, 0, 86,0.15);
 
 }
+.menu-js2:hover{
+        border-top: 5px solid #761CB8  ;
+    background-color: RGBa(50, 0, 86,0.15);
+
+}
+
 nav > ul > li:hover a{
     padding: 15px 30px 20px 30px;
     }
@@ -259,6 +265,9 @@ nav > ul > li:hover a{
 
 }
 .menu-js .submenu{
+    background-color: #A170C5 ;
+}
+.menu-js2 .submenu{
     background-color: #A170C5 ;
 }
 .submenu li:hover a{
