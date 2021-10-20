@@ -89,9 +89,8 @@ header input{
 
 .grid-container {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-
-  
+  grid-template-columns: 33% 33% 33% 33% 33%;
+  grid-row-gap :20px;
   padding-top: 90px;
   padding-right:15px;
   margin:auto;
