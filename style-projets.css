@@ -89,7 +89,7 @@ header input{
 
 .grid-container {
   display: grid;
-  grid-template-columns: 33% 25%
+  grid-template-columns: 25% 25%
   25% 25% 25%;
 
   
@@ -195,6 +195,10 @@ nav li:hover .submenu{
     border-top: 5px solid #761CB8  ;
     background-color: RGBa(50, 0, 86,0.15);
 }
+.menu-js3:hover{
+    border-top: 5px solid #761CB8  ;
+    background-color: RGBa(50, 0, 86,0.15);
+}
 .projets:hover{
         border-top: 5px solid #761CB8  ;
     background-color: RGBa(50, 0, 86,0.15);
@@ -213,6 +217,9 @@ nav > ul > li:hover a{
     background-color: #c4b4db ;
 }
  .menu-js2 .submenu{
+    background-color: #c4b4db ;
+}
+ .menu-js3 .submenu{
     background-color: #c4b4db ;
 }
 .projets .submenu{
