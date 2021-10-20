@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body bgcolor="#EAFFFB">
+
+<script type="text/javascript">
+	function verify(){
+	var x = document.getElementById("first").value;
+
+	var y = document.getElementById("second").value;
+
+	if (x==""|| y=="")
+	{
+		alert ("veillez saisir une valeur")
+	}
+
+	else{
+		x = Number(x);
+		y = Number(y);
+
+		document.getElementById("answer").value=(x+y);
+	}
+}
+</script>
+
+<form>
+	first <input type="text" id="first" name="first">
+	<br>
+	second <input type="text" id="second" name="second">
+	<br>
+		Answer:<input id="answer" name="answer" type="text"><br>
+	<input onclick="verify()" type="button" value="Addition">
+</form>
+
+
+
+
+</body>
+</html>
