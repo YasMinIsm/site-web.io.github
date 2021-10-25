@@ -98,7 +98,7 @@ function calculate(){
 		function access(){
 			var username=prompt("Identifiant:");
 			var password=prompt("Mot de passe:");
-		if (username==="Admin" && password==="admin"){
+		if (username==="Admin_GSB" && password==="admin"){
 			document.location.href="pdf.html";
 		}
 		else
