@@ -90,12 +90,7 @@ header input{
 #Introduction{
     display: grid;
 }
-h1{
-    text-align: left;
-    margin: 3px 15px;
-    font-size: 3em;
-    color: rgb(27, 17, 27);
-}
+
 #Introduction p{
     text-align: center;
     height: 45px;
