@@ -99,7 +99,8 @@ header input{
     width: 90%;
     margin:auto;
     font-size: 1.3em;
-    margin-top:20px
+    margin-top:20px;
+    color: whitesmoke; 
 
 }
 
