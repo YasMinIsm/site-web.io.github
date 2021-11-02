@@ -57,7 +57,7 @@ header li a{
 }
 header a:hover{
     color: rgb(10, 10, 10);
-    background-color: rgba (95,55,120,0.76);
+    background-color: rgba(95, 55, 120, 0.76);
     transition: 0.5s ease-in-out;
 }
 #logo{
