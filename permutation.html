@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="#7C3589 ">
+
+<script type="text/javascript">
+	function permutation()
+	{
+
+		x=document.fo.a.value;
+		document.fo.a.value=document.fo.b.value;
+		document.fo.b.value=x;
+	}
+
+</script>
+
+<center>
+<form name="fo" style="padding-top:35px">
+	<input type="text" name="a" style="border-radius: 8px;">
+	<br><br>
+	<input type="text" name="b" style="border-radius: 8px;">
+	<br><br>
+	<button type="button" onClick="permutation();" value="permuter" style="border-radius: 8px;">Permuter</button>
+
+</form>
+</center>
+
+
+</body>
+</html>
