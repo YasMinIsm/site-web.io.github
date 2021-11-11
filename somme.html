@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function somme(){
+			var tab = new Array();
+			var x= prompt("donnez la taille du tableau(5)")
+
+			var s = 0;
+
+			for(k=0;k<5;k++)
+			{
+				tab[k] = prompt("donnez une valeur" + k)
+				s+=Number(tab[k]);
+			}
+
+			for(k=0;k<5;k++)
+			{
+				document.write(tab[k], "/");
+			}
+				document.write("somme: " + s);
+	
+		}
+	</script>
+</head>
+<body bgcolor="#7C3589 ">
+		<center style="padding-top:200px">
+	<input type="button" name="c" onclick="somme()" value="somme" style="border-radius: 8px;">
+</center>
+</body>
+</html>
