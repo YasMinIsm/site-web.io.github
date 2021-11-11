@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function access(){
+			username=prompt("identifiant:");
+			pass=prompt("mot de passe:");
+
+			if (username=="admin_GSB" && pass == "admin") {
+				alert("connexion réussie");
+			}
+			else
+			{
+				alert("identifiant ou mot de passe incorrects")
+			}
+
+		}
+	</script>
+</head>
+<body bgcolor="#7C3589 ">
+	<center style="padding-top:200px">
+
+<input type="button" name="c" onclick="access()" value="se connecter" style="border-radius: 8px;">
+
+</center>
+</body>
+</html>
