@@ -8,17 +8,17 @@
 	<script type="text/javascript">
 		function somme(){
 			var tab = new Array();
-			var x= prompt("donnez la taille du tableau(5)")
+			var x= prompt("donnez la taille du tableau")
 
 			var s = 0;
 
-			for(k=0;k<5;k++)
+			for(k=0;k<x;k++)
 			{
 				tab[k] = prompt("donnez une valeur" + k)
 				s+=Number(tab[k]);
 			}
 
-			for(k=0;k<5;k++)
+			for(k=0;k<x;k++)
 			{
 				document.write(tab[k], "/");
 			}
