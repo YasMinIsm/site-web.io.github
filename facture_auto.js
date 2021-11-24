@@ -50,25 +50,24 @@ function calculate() {
     //Partie A FAIRE
     //Remplir
 
+    function remplir() {
+        const tabDesc = new Array ("portable", "bureau", "ram 8go", "clef usb 16go", "souris", "ecran 17 pouces");
 
-function remplir() {
-    const tabDesc = new Array("portable", "bureau", "ram 8go", "clef usb 16go", "souris", "ecran 17 pouces");
-
-    var listePrix = document.getElementsByClassName("prix");
+        var listePrix = document.getElementsByClassName("prix");
     var listeQte = document.getElementsByClassName("qte");
     var listeDesc = document.getElementsByClassName("desc");
 
+
     for (var i = 0; i < listeDesc.length; i++) {
-        var idesc = Math.floor(tabDesc.length * Math.random());
+        var idesc = Math.floor(tabDesc.length * Math.random()); //nombre entre 0 et le nombre d'élement -1 de tabDesc
         listeDesc[i].value = tabDesc[idesc];
 
-        var qte = Math.floor(10 * Math.random() + 1);
+        var qte = Math.floor(10 *Math.random()+1);
+        var prix = Math.floor(100 *Math.random()+1);
         listeQte[i].value = qte;
-
-        var prix = Math.floor(100 * Math.random() + 1);
         listePrix[i].value = prix;
     }
-}
+    }
 
 //ajouter une ligne
 
@@ -82,6 +81,6 @@ function ajouterLigne() {
     var pere = document.getElementById("table_inv").firstChild.nextSibling;
 
     //pour insérer la ligne modèle juste avant la dernière ligne
-    
+
     pere.insertBefore(newLi, lastLi);
 }
