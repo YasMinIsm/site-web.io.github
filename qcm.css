@@ -1,0 +1,44 @@
+div 
+{
+    width: 70%;
+}
+ul
+{
+    list-style: none;
+      color: ;
+      margin: 10px;   
+}
+li{
+    color: #3E0549  ;
+
+}
+h2{
+    font-size: 14px;
+    float: right;
+    color: #2D0434 ;
+}
+h1{
+    float: center;
+    color: #2D0434 ;
+}
+u{
+    color: #2D0434 ;
+}
+.button{
+    float: right;
+    padding_right: 3px;
+    border-radius: 10px;
+    background-color: #7C3589;
+    border-color: #2D0434;
+}
+.button:hover{
+   background-color:#2A0331 ;
+     border-radius: 10px;
+      border-color: #2D0434;
+      color: whitesmoke;
+}
+.questions{
+    font-weight: bold;
+    color: #2D0434 ;
+
+}

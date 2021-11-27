@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="qcm.css">
+	<script type="text/javascript" src="qcm.js"></script>
+</head>
+<body bgcolor="#7C3589 ">
+	<div>
+	<center><h1>BTS SIO Lycée Parc de Vilgénis</h1></center>
+	<h2>Questionnaire sous forme de QCM. Les questions peuvent comporter une ou plusieures bonnes réponses</h2>
+
+	
+		<form id="qcm">
+			<ul class="q1" style="  padding-top: 30px;">
+				<p class="questions">Question 1 :</span></p>
+				<u class="q1" >Quelle balise utilisera-t-on de préférence pour le titre principal d'une page html:
+</u><br>
+				<li>
+				<input type="checkbox" name="rep1" class="rep" id="rep1_1" value="1" onclick="Engine(1, this.value)"> < h1 > </li>
+				<li><input type="checkbox" name="rep1"class="rep" id="rep1_2" onclick="Engine(1, this.value)"> < head > </li>
+				<li><input type="checkbox" name="rep1" class="rep" id="rep1_3" onclick="Engine(1, this.value)"> < heading ></li>
+              
+			</ul>
+
+			<ul class="q2">
+				<p class="questions">Question 2 :</span> </p>
+<u>Les commentaires en HTML commencent par < !-- et finissent par -- >.</u><br>
+
+				<li><input type="checkbox" name="rep2" class="rep" id="rep2_1" value="1" onclick="Engine(2, this.value)"> Vrai</li>
+				<li><input type="checkbox" name="rep2" class="rep" id="rep2_2" onclick="Engine(2, this.value)"> Faux</li>
+				</ul>
+
+			<ul class="q3">
+				<p><span class="questions">Question 3 :</span></p>
+<u>Quel est le doctype d'un document HTML5 ?</u><br>
+
+				<li><input type="checkbox" name="rep3" class="rep" id="rep3_1" onclick= "Engine(3, this.value)"> < !doctype html5 > </li>
+				<li><input type="checkbox" name="rep3" class="rep" id="rep3_2" value="1" onclick="Engine(3, this.value)"> < !doctype html ></li>
+<li><input type="checkbox" name="rep3" class="rep" id="rep3_3"onclick="Engine(3, this.value)"> < !doctype html PUBLIC "-//W3C//DTD HTML5.0 Strict//EN" ></li>
+			</ul>
+
+            <ul class="q4">
+				<p><span class="questions">Question 4 :</span> </p>
+				<u>Quels éléments sont nécessaires pour créer une liste dont les items ne sont pas numérotés ?</u><br>
+				<li><input type="checkbox" name="rep4" class="rep" id="rep4_1" value="1" onclick="Engine(4, this.value)"> ul et li</li>
+				<li><input type="checkbox" name="rep4" class="rep" id="rep4_2" onclick="Engine(4, this.value)"> ol et li</li>
+				<li><input type="checkbox" name="rep4" class="rep" id="rep4_3" onclick="Engine(4, this.value)"> ul et ol</li>
+
+			</ul>
+
+            <ul class="q5">
+				<p><span class="questions">Question 5 :</span> </p>
+				<u>Le rôle du CSS est de:</u><br>
+				<li><input type="checkbox" name="rep5" class="rep" id="rep5_1" value="1" onclick="Engine(5, this.value)"> Mettre en forme les éléments html d'une page</li>
+				<li><input type="checkbox" name="rep5" class="rep" id="rep5_2" onclick="Engine(5, this.value)"> Définir des formulaires.</li>
+				<li><input type="checkbox" name="rep5" class="rep" id="rep5_3" onclick="Engine(5, this.value)"> Créer des sites e-commerce.</li>
+			</ul>
+
+            <ul class="q6">
+				<p><span class="questions">Question 6 :</span></p>
+<u>Quelle est la syntaxe correcte ?</u><br>
+			<li><input type="checkbox" name="rep6" class="reponse" id="rep6_1" value="1" onclick="Engine(6, this.value)"> document.getElementById("MonId");</li>
+				<li><input type="checkbox" name="rep6" class="rep" id="rep6_2" onclick="Engine(6, this.value)"> window.getElementById("MonId");</li>
+				<li><input type="checkbox" name="rep6" class="rep" id="rep6_3" onclick="Engine(6, this.value)"> getElementById(document.["MonId"]);</li>
+			</ul>
+            
+            <ul class="q7">
+				<p><span class="questions">Question 7 :</span> </p>
+<u>L'opérateur == </u><br>
+				<li><input type="checkbox" name="rep7" class="rep" id="rep7_1"onclick="Engine(7, this.value)"> n'existe pas en JavaScript</li>
+				<li><input type="checkbox" name="rep7" class="rep" id="rep7_2" value="1"onclick="Engine(7, this.value)"> teste l'égalité</li>
+				<li><input type="checkbox" name="rep7" class="rep" id="rep7_3" onclick="Engine(7, this.value)"> est un OU logique</li>
+			</ul>
+            <ul class="q8">
+				<p><span class="questions">Question 8 :</span> </p>
+<u>Que fait i++ ?</u><br>
+				<li><input type="checkbox" name="rep8" class="rep" id="rep8_1" onclick="Engine(8, this.value)"> renvoie la chaîne "i+"</li>
+				<li><input type="checkbox" name="rep8" class="rep" id="rep8_2" value="1"onclick="Engine(8, this.value)"> incrémente i de 1</li>
+				<li><input type="checkbox" name="rep8" class="rep" id="rep8_3"onclick="Engine(8, this.value)"> décale la valeur binaire de i</li>
+			</ul>
+
+            <ul class="q9">
+				<p><span class="questions">Question 9 :</span></p>
+<u>Requête qui permet d'afficher en minuscules la MARQUE et le model de toutes les voitures Tesla (SQL)</u><br>
+				<li><input type="checkbox" name="rep9" class="rep" id="rep9_1" value="1" onclick="Engine(9, this.value)"> Select lower(Marque), lower(Model)<br>
+From voitures
+<br>
+Where Marque = "Tesla"
+<br></li>
+				<li><input type="checkbox" name="rep9" class="rep" id="rep9_2" onclick="Engine(9, this.value)"> Select upper(Marque), upper(Model)
+<br>
+From voitures
+<br>
+where Marque = "Tesla"
+
+<br></li>
+				<li>
+<input type="checkbox" name="rep9" class="rep" id="rep9_3"onclick="Engine(9, this.value)"> Select  *
+<br>
+From voitures
+<br>
+Where Marque = "Tesla"/li>
+			</ul>
+
+            <ul class="q10">
+				<p class="questions">Question 10 :</p>
+<u>Où écrit-on le CSS ?</u><br>
+<li><input type="checkbox" name="rep10" class="rep"id="rep10_1" value="1"onclick="Engine(10, this.value)"> dans un fichier .css</li>
+				<li><input type="checkbox" name="rep10" class="rep" id="rep10_2" value="1"onclick="Engine(10, this.value)"> directement dans les balises du fichier HTML via un attribut style</li>
+				<li><input type="checkbox" name="rep10" class="rep" id="rep10_3"onclick="Engine(10, this.value)"> dans un fichier .js</li>
+			</ul>
+
+			<input type="button" id="correction" class="button" value="La correction"  onclick="window.location.href = 'qcm-cor.html'">
+			<input type="reset" id="effacer" class="button" value="Effacer">
+			<input type="button" id="corriger" class="button" value="Corriger" onclick="valider();">
+		</form>
+	</div>
+</body>
+</html>
